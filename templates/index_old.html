@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <link rel="icon" type="image/ico" href="static/favicon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready( function () {
+          $('#table').DataTable({
+          "iDisplayLength": 50,
+          "responsive": true,
+        
+          })
+          
+      document.getElementById("MarketCaps_All").innerHTML = '{{marketCaps.All}}';
+      document.getElementById("MarketCaps_All2").innerHTML = '{{marketCaps.All}}';
+      document.getElementById("MarketCaps_Comms").innerHTML = '{{marketCaps.Comms}}';
+      document.getElementById("MarketCaps_Stocks").innerHTML = '{{marketCaps.Stocks}}';
+      document.getElementById("MarketCaps_Currs").innerHTML = '{{marketCaps.Currs}}';
+      document.getElementById("MarketCaps_Cryptos").innerHTML = '{{marketCaps.Cryptos}}';
+      } )
+    </script>
+
+  </head>
+   
+  <body>
+
+    
+
+    <div class="upper-header">
+      <a href="/">Total Assets: <span id="MarketCaps_All"></span>
+      </a>
+      <a href="/commodities">Commodities: <span id="MarketCaps_Comms"></span>
+      </a>
+      <a href="/currencies">Currencies: <span id="MarketCaps_Stocks"></span>
+      </a>
+      <a href="/stocks">Stocks: <span id="MarketCaps_Currs"></span>
+      </a>
+      <a href="/cryptocurrencies">Cryptos: <span id="MarketCaps_Cryptos"></span>
+      </a>
+    </div>
+
+    <div class="col-lg-10 col-lg-offset-1">
+
+      <div class="header">
+        <img src="static/logo.png" href="index.html" class="logo-top" width=300px height=50px img>
+        <div class="header-right">
+          <a href="/">All</a>
+          <!--class = "active" (to active blue button)-->
+          <a href="/commodities">Commodities</a>
+          <a href="/currencies">Currencies</a>
+          <a href="/stocks">Stocks</a>
+          <a href="/cryptocurrencies">Cryptos</a>
+        </div>
+      </div>
+
+      <div class="lower-header">
+        <div class="lower-header-left">
+          <h1>Today's Asset Prices by Market Cap: </h1>
+          <h2>The world's total assets have a combined value of <span id="MarketCaps_All2"></span>
+          </h2>
+        </div>
+        <div class="lower-header-right">
+          <div class="slider-container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="https://koinmint.com/wp-content/uploads/2020/12/637C23B2-0FE7-41D4-9F75-38826340F4B8.gif" alt="Los Angeles" style="width:100%;">
+                </div>
+                <div class="item">
+                  <img src="https://www.compareforexbrokers.com/wp-content/uploads/2020/04/eToro-Banner.jpg" alt="Chicago" style="width:100%;">
+                </div>
+              </div>
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+      <div class="col-lg-10 col-lg-offset-1">
+        <div class="table-container">
+          {{table|safe}}
+        </div>
+      </div>  
+
+      <!--    carousel  -->
+      <script>
+        $('.carousel').carousel()
+      </script>
+    
+
+  </body>
+  <div class="container"></div>
+    <footer class="webintern-footer">
+      <div class="webintern-footer-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 ">
+              <div class="simple-text dark padding-sm">
+                <img src="static/logo.png" href="index.html" class="logo-bottom" width=300px height=50px img>
+              </div>
+              <p>Welcome to AssetMarketCap, your number one source for assets ranked by market capitalisation. Market capitalisation for commodities calculated by proven reserves multiplied by market price. For currencies supply is deemeded M2 money supply and for cryptocurrencies current circulating supply. </p>
+              <div class="empty-space xs-25 sm-25"></div>
+            </div>
+            <div class="col-sm-6 col-md-2 footer-2">
+              <!-- webintern_footer_title -->
+              <h4 class="webintern_footer_title h5">
+                <small> Our Partners </small>
+              </h4>
+              <ul class="webintern-footer-list">
+                <li>
+                  <a href="#">Ledger </a>
+                </li>
+                <li>
+                  <a href="#">Coinbase </a>
+                </li>
+                <li>
+                  <a href="#">Nord VPN</a>
+                </li>
+                <li>
+                  <a href="#">Coinmarketcap</a>
+                </li>
+                <li>
+                  <a href="#">Crypto.com</a>
+                </li>
+              </ul>
+              <div class="empty-space xs-25 sm-25"></div>
+            </div>
+            <div class="col-sm-6 col-md-3 footer-3">
+              <!-- webintern_footer_title -->
+              <h4 class="webintern_footer_title h5">
+                <small>Quick Links</small>
+              </h4>
+              <ul class="webintern-footer-list">
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+              </ul>
+              <div class="empty-space xs-25"></div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-sm-6">
+              <div class="marg-sm-b30"></div>
+              <!-- webintern_footer_title -->
+              <h4 class="webintern_footer_title h5">
+                <small>Subscribe Newsletter</small>
+              </h4>
+              <div class="empty-space marg-lg-b20"></div>
+              <div class="empty-space marg-lg-b15"></div>
+              <!-- TT-SUBSCRIBE -->
+              <form method="post">
+                <div class="tt-subscribe">
+                  <input type="text" required="" placeholder="Enter your email">
+                  <div class="tt-subscribe-submit">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <input type="submit" value="">
+                  </div>
+                </div>
+              </form>
+              <div class="empty-space marg-lg-b30"></div>
+              <!-- TT-SOCAIL -->
+              <ul class="tt-socail">
+                <li>
+                  <a href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+    
+      <div class="tt-copy2">
+        <div class="container-tt-copy2">
+          <div class="row_lower">
+            <div class="col-sm-6">
+              <div class="tt-copy-left">Copyright © assetmarketcap.org 2021. All rights reserved. </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="tt-copy-right"> Created by: theGeoffMeister </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  
+
+</html>

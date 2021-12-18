@@ -1,0 +1,422 @@
+[Mon Oct 04 06:25:03.500819 2021] [mpm_prefork:notice] [pid 46089] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations
+[Mon Oct 04 06:25:03.500856 2021] [core:notice] [pid 46089] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 04 06:28:19.143108 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58142] mod_wsgi (pid=14884): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.143192 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58142] mod_wsgi (pid=14884): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.146282 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58142] Traceback (most recent call last):, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.146323 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58142]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.146329 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58142]     from webApp import app as application, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.146336 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58142]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.146340 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58142]     df = pd.read_pickle('database.pkl') # to run locally, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.146346 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58142]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.146351 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58142]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.146357 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58142]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.146361 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58142]     f = open(path_or_buf, mode), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.146378 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58142] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl', referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.909469 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58260] mod_wsgi (pid=14882): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.909541 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58260] mod_wsgi (pid=14882): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.910039 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58260] Traceback (most recent call last):, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.910073 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58260]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.910078 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58260]     from webApp import app as application, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.910085 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58260]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.910089 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58260]     df = pd.read_pickle('database.pkl') # to run locally, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.910095 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58260]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.910111 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58260]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.910118 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58260]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.910121 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58260]     f = open(path_or_buf, mode), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:19.910137 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58260] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl', referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:20.768261 2021] [wsgi:error] [pid 14864] [client 188.165.213.192:58338] mod_wsgi (pid=14864): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:20.768343 2021] [wsgi:error] [pid 14864] [client 188.165.213.192:58338] mod_wsgi (pid=14864): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:20.769001 2021] [wsgi:error] [pid 14864] [client 188.165.213.192:58338] Traceback (most recent call last):, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:20.769040 2021] [wsgi:error] [pid 14864] [client 188.165.213.192:58338]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:20.769045 2021] [wsgi:error] [pid 14864] [client 188.165.213.192:58338]     from webApp import app as application, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:20.769051 2021] [wsgi:error] [pid 14864] [client 188.165.213.192:58338]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:20.769055 2021] [wsgi:error] [pid 14864] [client 188.165.213.192:58338]     df = pd.read_pickle('database.pkl') # to run locally, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:20.769061 2021] [wsgi:error] [pid 14864] [client 188.165.213.192:58338]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:20.769065 2021] [wsgi:error] [pid 14864] [client 188.165.213.192:58338]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:20.769070 2021] [wsgi:error] [pid 14864] [client 188.165.213.192:58338]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:20.769074 2021] [wsgi:error] [pid 14864] [client 188.165.213.192:58338]     f = open(path_or_buf, mode), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:20.769090 2021] [wsgi:error] [pid 14864] [client 188.165.213.192:58338] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl', referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.567855 2021] [wsgi:error] [pid 14883] [client 188.165.213.192:58382] mod_wsgi (pid=14883): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.567923 2021] [wsgi:error] [pid 14883] [client 188.165.213.192:58382] mod_wsgi (pid=14883): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.568425 2021] [wsgi:error] [pid 14883] [client 188.165.213.192:58382] Traceback (most recent call last):, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.568458 2021] [wsgi:error] [pid 14883] [client 188.165.213.192:58382]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.568463 2021] [wsgi:error] [pid 14883] [client 188.165.213.192:58382]     from webApp import app as application, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.568478 2021] [wsgi:error] [pid 14883] [client 188.165.213.192:58382]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.568482 2021] [wsgi:error] [pid 14883] [client 188.165.213.192:58382]     df = pd.read_pickle('database.pkl') # to run locally, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.568488 2021] [wsgi:error] [pid 14883] [client 188.165.213.192:58382]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.568492 2021] [wsgi:error] [pid 14883] [client 188.165.213.192:58382]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.568497 2021] [wsgi:error] [pid 14883] [client 188.165.213.192:58382]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.568501 2021] [wsgi:error] [pid 14883] [client 188.165.213.192:58382]     f = open(path_or_buf, mode), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.568517 2021] [wsgi:error] [pid 14883] [client 188.165.213.192:58382] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl', referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.766524 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58440] mod_wsgi (pid=14884): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.766621 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58440] mod_wsgi (pid=14884): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.766743 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58440] Traceback (most recent call last):, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.766773 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58440]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.766778 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58440]     from webApp import app as application, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.766784 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58440]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.766787 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58440]     df = pd.read_pickle('database.pkl') # to run locally, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.766793 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58440]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.766797 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58440]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.766803 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58440]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.766806 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58440]     f = open(path_or_buf, mode), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:21.766821 2021] [wsgi:error] [pid 14884] [client 188.165.213.192:58440] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl', referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:28.890878 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58938] mod_wsgi (pid=14882): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:28.891043 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58938] mod_wsgi (pid=14882): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:28.891181 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58938] Traceback (most recent call last):, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:28.891211 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58938]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:28.891216 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58938]     from webApp import app as application, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:28.891222 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58938]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:28.891225 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58938]     df = pd.read_pickle('database.pkl') # to run locally, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:28.891231 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58938]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:28.891235 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58938]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:28.891241 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58938]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:28.891244 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58938]     f = open(path_or_buf, mode), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:28:28.891259 2021] [wsgi:error] [pid 14882] [client 188.165.213.192:58938] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl', referer: https://assetmarketcap.org/
+[Mon Oct 04 06:36:39.831861 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51308] mod_wsgi (pid=14882): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:36:39.833607 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51308] mod_wsgi (pid=14882): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:36:39.833785 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51308] Traceback (most recent call last):
+[Mon Oct 04 06:36:39.833817 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51308]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:36:39.833822 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51308]     from webApp import app as application
+[Mon Oct 04 06:36:39.833829 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51308]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:36:39.833833 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51308]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:36:39.833839 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51308]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:36:39.833843 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51308]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:36:39.833849 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51308]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:36:39.833853 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51308]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:36:39.833871 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51308] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:36:41.197406 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51309] mod_wsgi (pid=14982): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:36:41.197516 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51309] mod_wsgi (pid=14982): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:36:41.198059 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51309] Traceback (most recent call last):, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:36:41.198096 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51309]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:36:41.198101 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51309]     from webApp import app as application, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:36:41.198107 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51309]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:36:41.198111 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51309]     df = pd.read_pickle('database.pkl') # to run locally, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:36:41.198117 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51309]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:36:41.198121 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51309]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:36:41.198126 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51309]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:36:41.198130 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51309]     f = open(path_or_buf, mode), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:36:41.198146 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51309] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl', referer: https://assetmarketcap.org/
+[Mon Oct 04 06:36:42.600521 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51311] mod_wsgi (pid=14864): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:36:42.600593 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51311] mod_wsgi (pid=14864): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:36:42.600712 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51311] Traceback (most recent call last):
+[Mon Oct 04 06:36:42.600748 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51311]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:36:42.600755 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51311]     from webApp import app as application
+[Mon Oct 04 06:36:42.600764 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51311]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:36:42.600769 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51311]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:36:42.600777 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51311]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:36:42.600783 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51311]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:36:42.600788 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51311]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:36:42.600792 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51311]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:36:42.600808 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51311] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:36:45.569343 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:51312] mod_wsgi (pid=14881): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:36:45.569422 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:51312] mod_wsgi (pid=14881): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:36:45.569955 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:51312] Traceback (most recent call last):
+[Mon Oct 04 06:36:45.569991 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:51312]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:36:45.569996 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:51312]     from webApp import app as application
+[Mon Oct 04 06:36:45.570002 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:51312]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:36:45.570006 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:51312]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:36:45.570011 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:51312]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:36:45.570016 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:51312]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:36:45.570021 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:51312]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:36:45.570025 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:51312]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:36:45.570040 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:51312] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:37:01.829538 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:51321] mod_wsgi (pid=14883): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:37:01.829627 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:51321] mod_wsgi (pid=14883): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:37:01.829748 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:51321] Traceback (most recent call last):
+[Mon Oct 04 06:37:01.829778 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:51321]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:37:01.829783 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:51321]     from webApp import app as application
+[Mon Oct 04 06:37:01.829789 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:51321]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:37:01.829793 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:51321]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:37:01.829798 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:51321]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:37:01.829802 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:51321]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:37:01.829808 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:51321]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:37:01.829811 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:51321]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:37:01.829826 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:51321] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:37:04.794821 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:51322] mod_wsgi (pid=14955): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:37:04.794908 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:51322] mod_wsgi (pid=14955): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:37:04.798964 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:51322] Traceback (most recent call last):
+[Mon Oct 04 06:37:04.799010 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:51322]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:37:04.799015 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:51322]     from webApp import app as application
+[Mon Oct 04 06:37:04.799021 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:51322]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:37:04.799025 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:51322]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:37:04.799031 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:51322]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:37:04.799035 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:51322]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:37:04.799040 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:51322]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:37:04.799044 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:51322]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:37:04.799061 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:51322] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:37:41.053453 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:51336] mod_wsgi (pid=14884): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:37:41.054200 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:51336] mod_wsgi (pid=14884): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:37:41.062378 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:51336] Traceback (most recent call last):
+[Mon Oct 04 06:37:41.062425 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:51336]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:37:41.062430 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:51336]     from webApp import app as application
+[Mon Oct 04 06:37:41.062437 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:51336]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:37:41.062441 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:51336]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:37:41.062448 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:51336]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:37:41.062452 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:51336]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:37:41.062458 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:51336]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:37:41.062462 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:51336]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:37:41.062486 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:51336] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:37:43.569233 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51339] mod_wsgi (pid=14882): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:37:43.569306 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51339] mod_wsgi (pid=14882): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:37:43.569557 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51339] Traceback (most recent call last):
+[Mon Oct 04 06:37:43.569588 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51339]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:37:43.569604 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51339]     from webApp import app as application
+[Mon Oct 04 06:37:43.569611 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51339]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:37:43.569614 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51339]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:37:43.569620 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51339]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:37:43.569624 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51339]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:37:43.569629 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51339]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:37:43.569633 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51339]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:37:43.569648 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:51339] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:37:44.075738 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51341] mod_wsgi (pid=14982): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:37:44.075818 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51341] mod_wsgi (pid=14982): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:37:44.076053 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51341] Traceback (most recent call last):, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:37:44.076085 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51341]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:37:44.076089 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51341]     from webApp import app as application, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:37:44.076095 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51341]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:37:44.076099 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51341]     df = pd.read_pickle('database.pkl') # to run locally, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:37:44.076105 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51341]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:37:44.076109 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51341]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:37:44.076115 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51341]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:37:44.076118 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51341]     f = open(path_or_buf, mode), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:37:44.076133 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:51341] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl', referer: https://assetmarketcap.org/
+[Mon Oct 04 06:37:46.822060 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51342] mod_wsgi (pid=14864): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:37:46.822142 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51342] mod_wsgi (pid=14864): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:37:46.822429 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51342] Traceback (most recent call last):
+[Mon Oct 04 06:37:46.822492 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51342]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:37:46.822497 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51342]     from webApp import app as application
+[Mon Oct 04 06:37:46.822503 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51342]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:37:46.822506 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51342]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:37:46.822512 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51342]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:37:46.822516 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51342]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:37:46.822551 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51342]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:37:46.822556 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51342]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:37:46.822608 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:51342] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:39:18.208100 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56585] mod_wsgi (pid=14881): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:39:18.208979 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56585] mod_wsgi (pid=14881): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:39:18.209272 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56585] Traceback (most recent call last):
+[Mon Oct 04 06:39:18.209313 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56585]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:39:18.209318 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56585]     from webApp import app as application
+[Mon Oct 04 06:39:18.209325 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56585]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:39:18.209329 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56585]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:39:18.209336 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56585]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:39:18.209340 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56585]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:39:18.209346 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56585]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:39:18.209350 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56585]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:39:18.209366 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56585] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:39:18.737899 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:56586] mod_wsgi (pid=14883): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:39:18.737995 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:56586] mod_wsgi (pid=14883): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:39:18.738369 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:56586] Traceback (most recent call last):, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:39:18.738422 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:56586]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:39:18.738447 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:56586]     from webApp import app as application, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:39:18.738458 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:56586]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:39:18.738463 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:56586]     df = pd.read_pickle('database.pkl') # to run locally, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:39:18.738473 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:56586]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:39:18.738478 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:56586]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:39:18.738488 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:56586]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:39:18.738493 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:56586]     f = open(path_or_buf, mode), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:39:18.738516 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:56586] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl', referer: https://assetmarketcap.org/
+[Mon Oct 04 06:40:07.171698 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:56597] mod_wsgi (pid=14982): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:40:07.171777 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:56597] mod_wsgi (pid=14982): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:40:07.171926 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:56597] Traceback (most recent call last):
+[Mon Oct 04 06:40:07.171958 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:56597]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:40:07.171963 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:56597]     from webApp import app as application
+[Mon Oct 04 06:40:07.171970 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:56597]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:40:07.171974 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:56597]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:40:07.171980 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:56597]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:40:07.171984 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:56597]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:40:07.171990 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:56597]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:40:07.171994 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:56597]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:40:07.172009 2021] [wsgi:error] [pid 14982] [client 131.255.16.53:56597] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:40:09.855020 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:56598] mod_wsgi (pid=14864): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:40:09.855090 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:56598] mod_wsgi (pid=14864): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:40:09.855192 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:56598] Traceback (most recent call last):
+[Mon Oct 04 06:40:09.855222 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:56598]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:40:09.855238 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:56598]     from webApp import app as application
+[Mon Oct 04 06:40:09.855244 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:56598]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:40:09.855248 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:56598]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:40:09.855253 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:56598]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:40:09.855257 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:56598]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:40:09.855263 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:56598]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:40:09.855266 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:56598]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:40:09.855280 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:56598] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:40:10.360092 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56599] mod_wsgi (pid=14881): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:40:10.360170 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56599] mod_wsgi (pid=14881): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:40:10.360298 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56599] Traceback (most recent call last):, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:40:10.360365 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56599]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:40:10.360373 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56599]     from webApp import app as application, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:40:10.360381 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56599]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:40:10.360387 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56599]     df = pd.read_pickle('database.pkl') # to run locally, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:40:10.360395 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56599]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:40:10.360401 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56599]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:40:10.360408 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56599]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:40:10.360413 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56599]     f = open(path_or_buf, mode), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:40:10.360431 2021] [wsgi:error] [pid 14881] [client 131.255.16.53:56599] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl', referer: https://assetmarketcap.org/
+[Mon Oct 04 06:40:26.603903 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:56645] mod_wsgi (pid=14884): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:40:26.603975 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:56645] mod_wsgi (pid=14884): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:40:26.604079 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:56645] Traceback (most recent call last):
+[Mon Oct 04 06:40:26.604107 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:56645]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:40:26.604124 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:56645]     from webApp import app as application
+[Mon Oct 04 06:40:26.604130 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:56645]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:40:26.604133 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:56645]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:40:26.604140 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:56645]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:40:26.604144 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:56645]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:40:26.604149 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:56645]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:40:26.604153 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:56645]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:40:26.604167 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:56645] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:45:32.123103 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57195] mod_wsgi (pid=14955): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:45:32.126755 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57195] mod_wsgi (pid=14955): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:45:32.127822 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57195] Traceback (most recent call last):
+[Mon Oct 04 06:45:32.127861 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57195]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:45:32.127866 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57195]     from webApp import app as application
+[Mon Oct 04 06:45:32.127873 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57195]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:45:32.127877 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57195]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:45:32.127883 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57195]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:45:32.127888 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57195]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:45:32.127894 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57195]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:45:32.127898 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57195]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:45:32.127916 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57195] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:45:34.938285 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57197] mod_wsgi (pid=14884): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:45:34.938375 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57197] mod_wsgi (pid=14884): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:45:34.938479 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57197] Traceback (most recent call last):
+[Mon Oct 04 06:45:34.938508 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57197]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:45:34.938512 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57197]     from webApp import app as application
+[Mon Oct 04 06:45:34.938519 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57197]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:45:34.938540 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57197]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:45:34.938547 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57197]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:45:34.938551 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57197]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:45:34.938556 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57197]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:45:34.938560 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57197]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:45:34.938602 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57197] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:45:35.456193 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57198] mod_wsgi (pid=14882): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:45:35.456282 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57198] mod_wsgi (pid=14882): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:45:35.456403 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57198] Traceback (most recent call last):, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:45:35.456431 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57198]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:45:35.456436 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57198]     from webApp import app as application, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:45:35.456441 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57198]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:45:35.456445 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57198]     df = pd.read_pickle('database.pkl') # to run locally, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:45:35.456452 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57198]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:45:35.456456 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57198]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:45:35.456461 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57198]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:45:35.456465 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57198]     f = open(path_or_buf, mode), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:45:35.456480 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57198] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl', referer: https://assetmarketcap.org/
+[Mon Oct 04 06:48:11.758617 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57401] mod_wsgi (pid=15350): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:48:11.759303 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57401] mod_wsgi (pid=15350): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:48:11.763874 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57401] Traceback (most recent call last):
+[Mon Oct 04 06:48:11.763929 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57401]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:48:11.763936 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57401]     from webApp import app as application
+[Mon Oct 04 06:48:11.763952 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57401]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:48:11.763956 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57401]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:48:11.763962 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57401]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:48:11.763966 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57401]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:48:11.763972 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57401]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:48:11.763976 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57401]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:48:11.763993 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57401] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:48:55.303023 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57457] mod_wsgi (pid=14882): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:48:55.303094 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57457] mod_wsgi (pid=14882): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:48:55.303763 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57457] Traceback (most recent call last):
+[Mon Oct 04 06:48:55.303804 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57457]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:48:55.303810 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57457]     from webApp import app as application
+[Mon Oct 04 06:48:55.303816 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57457]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:48:55.303820 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57457]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:48:55.303827 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57457]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:48:55.303831 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57457]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:48:55.303837 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57457]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:48:55.303841 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57457]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:48:55.303858 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:57457] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:48:58.504492 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:57459] mod_wsgi (pid=14883): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:48:58.504580 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:57459] mod_wsgi (pid=14883): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:48:58.504814 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:57459] Traceback (most recent call last):
+[Mon Oct 04 06:48:58.504844 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:57459]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:48:58.504849 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:57459]     from webApp import app as application
+[Mon Oct 04 06:48:58.504855 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:57459]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:48:58.504859 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:57459]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:48:58.504877 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:57459]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:48:58.504882 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:57459]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:48:58.504887 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:57459]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:48:58.504891 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:57459]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:48:58.504904 2021] [wsgi:error] [pid 14883] [client 131.255.16.53:57459] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:48:59.148601 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57460] mod_wsgi (pid=14955): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:48:59.149618 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57460] mod_wsgi (pid=14955): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:48:59.149881 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57460] Traceback (most recent call last):, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:48:59.149913 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57460]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:48:59.149917 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57460]     from webApp import app as application, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:48:59.149923 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57460]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:48:59.149927 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57460]     df = pd.read_pickle('database.pkl') # to run locally, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:48:59.149933 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57460]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:48:59.149937 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57460]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:48:59.149943 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57460]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:48:59.149946 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57460]     f = open(path_or_buf, mode), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:48:59.149962 2021] [wsgi:error] [pid 14955] [client 131.255.16.53:57460] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl', referer: https://assetmarketcap.org/
+[Mon Oct 04 06:49:00.211961 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:57464] mod_wsgi (pid=14864): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:49:00.212048 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:57464] mod_wsgi (pid=14864): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:49:00.212303 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:57464] Traceback (most recent call last):
+[Mon Oct 04 06:49:00.212333 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:57464]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:49:00.212338 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:57464]     from webApp import app as application
+[Mon Oct 04 06:49:00.212344 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:57464]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:49:00.212357 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:57464]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:49:00.212364 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:57464]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:49:00.212368 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:57464]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:49:00.212373 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:57464]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:49:00.212377 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:57464]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:49:00.212391 2021] [wsgi:error] [pid 14864] [client 131.255.16.53:57464] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:49:02.737704 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57466] mod_wsgi (pid=15350): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:49:02.737766 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57466] mod_wsgi (pid=15350): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:49:02.737982 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57466] Traceback (most recent call last):
+[Mon Oct 04 06:49:02.738011 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57466]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:49:02.738016 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57466]     from webApp import app as application
+[Mon Oct 04 06:49:02.738022 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57466]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:49:02.738025 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57466]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:49:02.738031 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57466]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:49:02.738035 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57466]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:49:02.738041 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57466]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:49:02.738044 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57466]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:49:02.738058 2021] [wsgi:error] [pid 15350] [client 131.255.16.53:57466] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:49:23.277395 2021] [wsgi:error] [pid 15351] [client 131.255.16.53:57478] mod_wsgi (pid=15351): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:49:23.277471 2021] [wsgi:error] [pid 15351] [client 131.255.16.53:57478] mod_wsgi (pid=15351): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:49:23.280699 2021] [wsgi:error] [pid 15351] [client 131.255.16.53:57478] Traceback (most recent call last):
+[Mon Oct 04 06:49:23.280742 2021] [wsgi:error] [pid 15351] [client 131.255.16.53:57478]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:49:23.280747 2021] [wsgi:error] [pid 15351] [client 131.255.16.53:57478]     from webApp import app as application
+[Mon Oct 04 06:49:23.280754 2021] [wsgi:error] [pid 15351] [client 131.255.16.53:57478]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:49:23.280758 2021] [wsgi:error] [pid 15351] [client 131.255.16.53:57478]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:49:23.280764 2021] [wsgi:error] [pid 15351] [client 131.255.16.53:57478]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:49:23.280777 2021] [wsgi:error] [pid 15351] [client 131.255.16.53:57478]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:49:23.280782 2021] [wsgi:error] [pid 15351] [client 131.255.16.53:57478]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:49:23.280786 2021] [wsgi:error] [pid 15351] [client 131.255.16.53:57478]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:49:23.280802 2021] [wsgi:error] [pid 15351] [client 131.255.16.53:57478] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:49:24.691300 2021] [wsgi:error] [pid 15347] [client 131.255.16.53:57480] mod_wsgi (pid=15347): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:49:24.691383 2021] [wsgi:error] [pid 15347] [client 131.255.16.53:57480] mod_wsgi (pid=15347): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'., referer: https://assetmarketcap.org/
+[Mon Oct 04 06:49:24.691912 2021] [wsgi:error] [pid 15347] [client 131.255.16.53:57480] Traceback (most recent call last):, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:49:24.691947 2021] [wsgi:error] [pid 15347] [client 131.255.16.53:57480]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:49:24.691952 2021] [wsgi:error] [pid 15347] [client 131.255.16.53:57480]     from webApp import app as application, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:49:24.691958 2021] [wsgi:error] [pid 15347] [client 131.255.16.53:57480]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:49:24.691962 2021] [wsgi:error] [pid 15347] [client 131.255.16.53:57480]     df = pd.read_pickle('database.pkl') # to run locally, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:49:24.691968 2021] [wsgi:error] [pid 15347] [client 131.255.16.53:57480]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:49:24.691972 2021] [wsgi:error] [pid 15347] [client 131.255.16.53:57480]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:49:24.691978 2021] [wsgi:error] [pid 15347] [client 131.255.16.53:57480]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle, referer: https://assetmarketcap.org/
+[Mon Oct 04 06:49:24.691983 2021] [wsgi:error] [pid 15347] [client 131.255.16.53:57480]     f = open(path_or_buf, mode), referer: https://assetmarketcap.org/
+[Mon Oct 04 06:49:24.691999 2021] [wsgi:error] [pid 15347] [client 131.255.16.53:57480] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl', referer: https://assetmarketcap.org/
+[Mon Oct 04 06:49:52.643342 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:44528] mod_wsgi (pid=14882): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:49:52.643439 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:44528] mod_wsgi (pid=14882): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:49:52.643581 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:44528] Traceback (most recent call last):
+[Mon Oct 04 06:49:52.643620 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:44528]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:49:52.643626 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:44528]     from webApp import app as application
+[Mon Oct 04 06:49:52.643634 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:44528]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:49:52.643639 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:44528]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:49:52.643646 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:44528]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:49:52.643671 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:44528]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:49:52.643680 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:44528]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:49:52.643685 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:44528]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:49:52.643713 2021] [wsgi:error] [pid 14882] [client 131.255.16.53:44528] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'
+[Mon Oct 04 06:58:09.279595 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57774] mod_wsgi (pid=14884): Target WSGI script '/var/www/webApp/webapp.wsgi' cannot be loaded as Python module.
+[Mon Oct 04 06:58:09.281051 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57774] mod_wsgi (pid=14884): Exception occurred processing WSGI script '/var/www/webApp/webapp.wsgi'.
+[Mon Oct 04 06:58:09.281966 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57774] Traceback (most recent call last):
+[Mon Oct 04 06:58:09.282009 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57774]   File "/var/www/webApp/webapp.wsgi", line 7, in <module>
+[Mon Oct 04 06:58:09.282015 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57774]     from webApp import app as application
+[Mon Oct 04 06:58:09.282022 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57774]   File "/var/www/webApp/webApp/__init__.py", line 6, in <module>
+[Mon Oct 04 06:58:09.282026 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57774]     df = pd.read_pickle('database.pkl') # to run locally
+[Mon Oct 04 06:58:09.282033 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57774]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/pickle.py", line 169, in read_pickle
+[Mon Oct 04 06:58:09.282038 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57774]     f, fh = get_handle(fp_or_buf, "rb", compression=compression, is_text=False)
+[Mon Oct 04 06:58:09.282044 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57774]   File "/usr/local/lib/python3.6/dist-packages/pandas/io/common.py", line 499, in get_handle
+[Mon Oct 04 06:58:09.282050 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57774]     f = open(path_or_buf, mode)
+[Mon Oct 04 06:58:09.282070 2021] [wsgi:error] [pid 14884] [client 131.255.16.53:57774] FileNotFoundError: [Errno 2] No such file or directory: 'database.pkl'

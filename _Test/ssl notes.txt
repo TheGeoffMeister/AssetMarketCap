@@ -1,0 +1,1 @@
+disable dns proxy in cloudflare otherwise will get redorect errors when using ssl

@@ -1,0 +1,17 @@
+0,Ticker,Name,Last Sale,Net Change,% Change,Market Cap,Country,IPO Year,Volume,Sector,Industry
+1,AAPL,Apple Inc. Common Stock,$124.61,-0.67,-0.54%,2.16E+12,United States,1980,71311109,Technology,Computer Manufacturing
+2,ADBE,Adobe Inc. Common Stock,$504.58,6.3,1.26%,2.41E+11,United States,1986,1924999,Technology,Computer Software: Prepackaged Software
+3,AMZN,Amazon.com Inc. Common Stock,$3223.07,-7.04,-0.22%,1.63E+12,United States,1997,2331509,Consumer Services,Catalog/Specialty Distribution
+4,ASML,ASML Holding N.V. New York Registry Shares,$675.47,10.38,1.56%,2.81E+11,Netherlands,1995,615672,Technology,Industrial Machinery/Components
+5,CMCSA,Comcast Corporation Class A Common Stock,$57.34,0,0.00%,2.63E+11,United States,,13018034,Consumer Services,Television Services
+6,CSCO,Cisco Systems Inc. Common Stock (DE),$52.90,-0.02,-0.04%,2.23E+11,United States,1990,14864346,Technology,Computer peripheral equipment
+7,FB,Facebook Inc. Class A Common Stock,$328.73,-4.02,-1.21%,9.32E+11,United States,2012,12037430,Technology,Internet and Information Services
+8,GOOG,Alphabet Inc. Class C Capital Stock,$2411.56,9.05,0.38%,1.62E+12,United States,2004,1205382,Technology,Internet and Information Services
+9,GOOGL,Alphabet Inc. Class A Common Stock,$2356.85,-5.83,-0.25%,1.58E+12,United States,,1074540,Technology,Internet and Information Services
+10,INTC,Intel Corporation Common Stock,$57.12,-0.61,-1.06%,2.31E+11,United States,,20309599,Technology,Semiconductors
+11,MSFT,Microsoft Corporation Common Stock,$249.68,0.37,0.15%,1.88E+12,United States,1986,18274942,Technology,Computer Software: Prepackaged Software
+12,NFLX,Netflix Inc. Common Stock,$502.81,-1.05,-0.21%,2.23E+11,United States,2002,2911297,Consumer Services,Movies/Entertainment
+13,NVDA,NVIDIA Corporation Common Stock,$649.78,30.26,4.88%,4.05E+11,United States,1999,16113390,Technology,Semiconductors
+14,PEP,PepsiCo Inc. Common Stock,$147.94,1.43,0.98%,2.04E+11,United States,,4913671,Consumer Non-Durables,Beverages (Production/Distribution)
+15,PYPL,PayPal Holdings Inc. Common Stock,$260.02,0.55,0.21%,3.05E+11,United States,,4281832,Miscellaneous,Business Services
+16,TSLA,Tesla Inc. Common Stock,$625.22,-5.63,-0.89%,6.02E+11,United States,2010,22737038,Capital Goods,Auto Manufacturing

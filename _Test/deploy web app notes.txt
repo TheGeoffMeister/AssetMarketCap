@@ -1,0 +1,37 @@
+deploy a web app
+
+follow this: https://www.youtube.com/watch?v=YFBRVJPhDGY
+
+
+If you want to run python 3.0 on your server you have to install python3 with this command:
+sudo apt install apache2-dev libapache2-mod-wsgi-py3
+sudo pip3 install mod_wsgi
+
+and for the pip installations you use pip3 instead of pip. For example:
+
+sudo pip install Flask -> sudo pip3 install Flask
+
+
+
+
+
+
+<VirtualHost *:80>
+		ServerName ip (this has to be the web address domain)
+		ServerAdmin email@mywebsite.com
+		WSGIScriptAlias / /var/www/webApp/webapp.wsgi
+		<Directory /var/www/webApp/webApp/>
+			Order allow,deny
+			Allow from all
+		</Directory>
+		Alias /static /var/www/webApp/webApp/static
+		<Directory /var/www/webApp/webApp/static/>
+			Order allow,deny
+			Allow from all
+		</Directory>
+		ErrorLog ${APACHE_LOG_DIR}/error.log
+		LogLevel warn
+		CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+

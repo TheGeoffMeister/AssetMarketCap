@@ -1,0 +1,10 @@
+﻿Index,Ticker,Name,CountryCode
+1,USD,United States Dollar,united-states
+2,EURUSD=X,Euro,euro-area
+3,GBPUSD=X,British Pound,united-kingdom
+4,CNYUSD=X,Chinese Yuan,china
+5,JPYUSD=X,Japanese Yen,japan
+6,RUBUSD=X,Russian Ruble,russia
+7,CHFUSD=X,Swiss Franc,switzerland
+8,AUDUSD=X,Australian Dollar,australia
+9,SARUSD=X,Saudi Arabia,saudi-arabia

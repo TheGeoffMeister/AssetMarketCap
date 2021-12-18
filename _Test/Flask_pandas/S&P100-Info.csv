@@ -1,0 +1,102 @@
+,Symbol,Name,Sector
+0,AAPL,Apple,Information Technology
+1,ABBV,AbbVie,Health Care
+2,ABT,Abbott Laboratories,Health Care
+3,ACN,Accenture,Information Technology
+4,ADBE,Adobe,Information Technology
+5,AIG,American International Group,Financials
+6,AMGN,Amgen,Health Care
+7,AMT,American Tower,Real Estate
+8,AMZN,Amazon.com,Consumer Discretionary
+9,AVGO,Broadcom,Information Technology
+10,AXP,American Express,Financials
+11,BA,Boeing,Industrials
+12,BAC,Bank of America,Financials
+13,BIIB,Biogen,Health Care
+14,BK,BNY Mellon,Financials
+15,BKNG,Booking Holdings,Consumer Discretionary
+16,BLK,BlackRock,Financials
+17,BMY,Bristol Myers Squibb,Health Care
+18,BRK.B,Berkshire Hathaway,Financials
+19,C,Citigroup,Financials
+20,CAT,Caterpillar,Industrials
+21,CHTR,Charter Communications,Communication Services
+22,CL,Colgate-Palmolive,Consumer Staples
+23,CMCSA,Comcast,Communication Services
+24,COF,Capital One,Financials
+25,COP,ConocoPhillips,Energy
+26,COST,Costco,Consumer Staples
+27,CRM,Salesforce,Information Technology
+28,CSCO,Cisco Systems,Information Technology
+29,CVS,CVS Health,Health Care
+30,CVX,Chevron,Energy
+31,DD,DuPont,Materials
+32,DHR,Danaher,Health Care
+33,DIS,Disney,Communication Services
+34,DOW,Dow,Materials
+35,DUK,Duke Energy,Utilities
+36,EMR,Emerson Electric,Industrials
+37,EXC,Exelon,Utilities
+38,F,Ford,Consumer Discretionary
+39,FB,Facebook,Communication Services
+40,FDX,FedEx,Industrials
+41,GD,General Dynamics,Industrials
+42,GE,General Electric,Industrials
+43,GILD,Gilead Sciences,Health Care
+44,GM,General Motors,Consumer Discretionary
+45,GOOG,Alphabet (Class C),Communication Services
+46,GOOGL,Alphabet (Class A),Communication Services
+47,GS,Goldman Sachs,Financials
+48,HD,Home Depot,Consumer Discretionary
+49,HON,Honeywell,Industrials
+50,IBM,IBM,Information Technology
+51,INTC,Intel,Information Technology
+52,JNJ,Johnson & Johnson,Health Care
+53,JPM,JPMorgan Chase,Financials
+54,KHC,Kraft Heinz,Consumer Staples
+55,KO,Coca-Cola,Consumer Staples
+56,LIN,Linde,Industrials
+57,LLY,Eli Lilly,Health Care
+58,LMT,Lockheed Martin,Industrials
+59,LOW,Lowe's,Consumer Discretionary
+60,MA,Mastercard,Financials
+61,MCD,McDonald's,Consumer Discretionary
+62,MDLZ,Mondelēz International,Consumer Staples
+63,MDT,Medtronic,Health Care
+64,MET,MetLife,Financials
+65,MMM,3M,Industrials
+66,MO,Altria,Consumer Staples
+67,MRK,Merck,Health Care
+68,MS,Morgan Stanley,Financials
+69,MSFT,Microsoft,Information Technology
+70,NEE,NextEra Energy,Utilities
+71,NFLX,Netflix,Communication Services
+72,NKE,Nike,Consumer Discretionary
+73,NVDA,Nvidia,Information Technology
+74,ORCL,Oracle,Information Technology
+75,PEP,PepsiCo,Consumer Staples
+76,PFE,Pfizer,Health Care
+77,PG,Procter & Gamble,Consumer Staples
+78,PM,Philip Morris International,Consumer Staples
+79,PYPL,PayPal,Financials
+80,QCOM,Qualcomm,Information Technology
+81,RTX,Raytheon Technologies,Industrials
+82,SBUX,Starbucks,Consumer Discretionary
+83,SO,Southern Company,Utilities
+84,SPG,Simon Property Group,Real Estate
+85,T,AT&T,Communication Services
+86,TGT,Target,Consumer Staples
+87,TMO,Thermo Fisher Scientific,Health Care
+88,TMUS,T-Mobile US,Communication Services
+89,TSLA,Tesla,Consumer Discretionary
+90,TXN,Texas Instruments,Information Technology
+91,UNH,UnitedHealth,Health Care
+92,UNP,Union Pacific,Industrials
+93,UPS,United Parcel Service,Industrials
+94,USB,U.S. Bancorp,Financials
+95,V,Visa,Financials
+96,VZ,Verizon,Communication Services
+97,WBA,Walgreens Boots Alliance,Consumer Staples
+98,WFC,Wells Fargo,Financials
+99,WMT,Walmart,Consumer Staples
+100,XOM,ExxonMobil,Energy

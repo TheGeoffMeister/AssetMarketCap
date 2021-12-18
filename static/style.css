@@ -1,0 +1,386 @@
+body            { font-family: "Lucida Sans Unicode", "Lucida Grande", 
+                sans-serif; text-align: center}
+a, h1, h2       { color: #377ba8;}
+h1, h2          { margin: 0;}
+h1              { font-size: 2.0em; color: #000;}
+h2              { font-size: 1.2em; color: #000; padding: 8px;}
+h4           { font-size: 1.2em; color: #000;}
+p           {text-align: left}
+
+.carousel-indicators li {
+border: 1px solid grey;
+background-color: white;
+}
+
+.carousel-indicators .active {
+background-color: grey;
+}
+
+
+
+table.dataframe, .dataframe th, .dataframe td {
+
+  border: none;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 0.9em;
+
+}
+
+
+.dataframe tr {
+border-bottom: 1px solid;
+}
+
+.dataTables_wrapper{
+padding-top: 15px;
+margin-bottom: 50px;
+text-align: center;
+background-color:#fff;
+
+}
+
+
+tr:nth-child(odd)		{ background-color:#fff; }
+tr:nth-child(even)	{ background-color:#fff; }
+
+
+/*
+tr:hover            { background-color: #ffff99;}
+
+*/
+
+.logo-top{
+  float:left;
+}
+
+.logo-bottom{
+  float:left;
+  margin-bottom: 30px;
+}
+
+/* Style the header with a grey background and some padding */
+.table-container {
+  overflow: hidden;
+  text-align: center;
+
+
+
+}
+
+/* Style the header with a grey background and some padding */
+.upper-header {
+  overflow: hidden;
+  text-align: center;
+  background-color: #f0f0f0;
+  width:100%
+
+}
+
+/* Style the header links */
+.upper-header a {
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  width:100%
+}
+
+/* Change the background color on mouse-over */
+.upper-header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the header with a grey background and some padding */
+.lower-header {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow: hidden;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+
+/* Style the header with a grey background and some padding */
+.lower-header-left {
+  padding-top:20px;
+  width: 50%;
+  text-align: left;
+  float:left;
+}
+
+/* Style the header with a grey background and some padding */
+.lower-header-right {
+  width: 50%;
+  text-align: center;
+  float:right;
+}
+
+
+/* Style the header links */
+.lower-header a {
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  padding-top: 10px;
+  float: right;
+}
+
+
+.container{
+  float: none;
+}
+
+
+/*=================footer css start==============*/
+
+
+
+.webintern-footer {
+  float: none;
+}
+
+.webintern-footer-inner {
+padding-top: 80px;
+padding-bottom: 50px;
+background: #d0d0d0;
+
+}
+
+.webintern-footer-logo {
+display: inline-block;
+}
+
+.webintern-footer .webintern-footer-inner .simple-text p {
+color: #000;
+margin-top: 30px;
+margin-bottom: 15px;
+}
+.simple-text p {
+font-size: 15px;
+color: #000;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 0;
+margin-top: 30px;
+}
+
+.webintern-footer .webintern-footer-inner .simple-text a {
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+color: #f2c21a;
+font-size: 15px;
+text-align: center;
+}
+.footer-2 {
+padding-left: 55px;
+}
+.webintern_footer_title {
+margin-top: 0px;
+margin-bottom: 25px;
+}
+.webintern_footer_title small {
+font-family: 'Work Sans', sans-serif;
+color: #000000;
+font-weight: 700;
+font-size: 18px;
+text-transform: uppercase;
+}
+.webintern_footer_title:after {
+content: '';
+display: block;
+width: 70%;
+height: 2px;
+background: #f2c21a;
+margin-top: 15px;
+text-align: center;
+margin-left: 15%;
+}
+.webintern-footer-list {
+padding: 0;
+}
+.webintern-footer-list li {
+margin-bottom: 17px;
+list-style: none;
+}
+.webintern-footer-list a {
+position: relative;
+font-size: 15px;
+line-height: 18px;
+color: #000;
+padding-left: 0;
+letter-spacing: 0.20px;
+font-family: 'Open Sans', sans-serif;
+}
+.footer-3 {
+padding-left: 65px;
+}
+.webintern-footer-inner .simple-text.last {
+color: #d5d5d5;
+font-size: 17px;
+font-style: italic;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+}
+.tt-subscribe {
+position: relative;
+
+}
+.tt-subscribe input:not([type="submit"]) {
+width: 100%;
+height: 46px;
+background: #fff;
+font-size: 15px;
+color: #838486;
+padding-left: 20px;
+padding-right: 70px;
+border: 2px solid #fff;
+-moz-border-radius: 3px;
+border-radius: 3px;
+
+}
+.tt-subscribe-submit {
+background: #001b57;
+}
+
+.tt-subscribe-submit {
+position: absolute;
+top: 0;
+right: 0;
+width: 52px;
+height: 46px;
+font-size: 18px;
+line-height: 46px;
+color: #2a2a2a;
+text-align: center;
+background: #a1a1a1;
+-moz-border-radius-topright: 3px;
+border-top-right-radius: 3px;
+-moz-border-radius-bottomright: 3px;
+border-bottom-right-radius: 3px;
+}
+
+
+.tt-subscribe-submit i.fa-envelope:before {
+content: "\f0e0";
+position: relative;
+z-index: 1;
+color: #fff;
+}
+.tt-subscribe-submit input {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #3d3d3d;
+border: 0;
+}
+ul.tt-socail {
+padding: 0;
+margin-top: 30px;
+}
+.tt-socail li {
+display: inline-block;
+margin-right: 10px;
+}
+.tt-socail a {
+display: block;
+width: 36px;
+height: 36px;
+font-size: 17px;
+line-height: 34px;
+color: #a1a1a1;
+text-align: center;
+border: 1px solid #a1a1a1;
+-moz-border-radius: 100%;
+border-radius: 100%;
+}
+.webintern_footer_title small {
+    font-family: 'Work Sans', sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.tt-copy2
+{
+font-size: 1.0em;
+color: #fff;
+background: #a1a1a1;
+padding: 30px 0;
+font-family: 'Open Sans', sans-serif;
+}
+.tt-copy-right {
+text-align: right;
+}
+.tt-copy-left {
+  text-align: left;
+  }
+
+
+
+.carousel-inner{
+height:100px;
+}
+
+.carousel-indicators{
+margin-bottom: 0;
+bottom: 0;
+}
+
+
+
+

@@ -1,0 +1,74 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+
+<script>
+
+    $(function(){
+    
+        window.setInterval(function(){
+        
+            loadNewDecimal()
+            
+        }, 5000)
+    
+    function loadNewDecimal(){
+        $.ajax({
+            url:"/update_decimal",
+            type: "POST",
+            dataType: "json",
+            success: function(data){
+                $(random_decimal).replaceWith(data)
+            }
+        
+        });
+    }
+    });
+
+</script>
+
+<html>
+  <head>
+    <style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;}
+    
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto; 
+    
+}
+
+  </style>
+  
+  <br>
+  <h1> AssetMarketCap.org </h1>
+  <br><br>
+
+  </head>
+  
+  
+  <body>
+
+    <div id="random_decimal">
+
+        <p>{{x}}</p>
+    
+    </div>
+  </body>
+
+</html>
+
+
+
+        
+        
+
+
+        
+
+

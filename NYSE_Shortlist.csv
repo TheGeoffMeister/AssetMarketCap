@@ -1,0 +1,23 @@
+0,Ticker,Name,Last Sale,Net Change,% Change,Market Cap,Country,IPO Year,Volume,Sector,Industry
+1,ABT,Abbott Laboratories Common Stock,$116.65,0.96,0.83%,2.07E+11,United States,,4813106,Health Care,Medical/Dental Instruments
+2,BABA,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share,$213.96,1.22,0.57%,5.80E+11,China,2014,10401474,Consumer Services,Catalog/Specialty Distribution
+3,BAC,Bank of America Corporation Common Stock,$42.39,-0.16,-0.38%,3.66E+11,United States,,38509710,Finance,Major Banks
+4,CRM,Salesforce.com Inc Common Stock,$238.10,12.27,5.43%,2.20E+11,United States,2004,17814520,Technology,Computer Software: Prepackaged Software
+5,CVX,Chevron Corporation Common Stock,$103.79,0.78,0.76%,2.00E+11,United States,,7278515,Energy,Integrated oil Companies
+6,DIS,Walt Disney Company (The) Common Stock,$178.65,-0.39,-0.22%,3.25E+11,United States,,7130259,Consumer Services,Movies/Entertainment
+7,HD,Home Depot Inc. (The) Common Stock,$318.91,0.14,0.04%,3.39E+11,United States,,3197218,Consumer Services,RETAIL: Building Materials
+8,JNJ,Johnson & Johnson Common Stock,$169.25,0.44,0.26%,4.46E+11,United States,,6401011,Health Care,Major Pharmaceuticals
+9,JPM,JP Morgan Chase & Co. Common Stock,$164.24,-0.11,-0.07%,4.97E+11,United States,,10294700,Finance,Major Banks
+10,KO,Coca-Cola Company (The) Common Stock,$55.29,-0.2,-0.36%,2.38E+11,United States,,17011952,Consumer Non-Durables,Beverages (Production/Distribution)
+11,MA,Mastercard Incorporated Common Stock,$360.58,-1.42,-0.39%,3.57E+11,United States,2006,3625914,Miscellaneous,Business Services
+12,NKE,Nike Inc. Common Stock,$136.46,-0.1,-0.07%,2.16E+11,United States,,4154634,Consumer Non-Durables,Shoe Manufacturing
+13,ORCL,Oracle Corporation Common Stock,$78.74,-0.24,-0.30%,2.27E+11,United States,1986,6929875,Technology,Computer Software: Prepackaged Software
+14,PFE,Pfizer Inc. Common Stock,$38.73,0.08,0.21%,2.17E+11,United States,,16160964,Health Care,Major Pharmaceuticals
+15,PG,Procter & Gamble Company (The) Common Stock,$134.85,-0.13,-0.10%,3.30E+11,United States,,10477732,Consumer Non-Durables,Package Goods/Cosmetics
+16,T,AT&T Inc.,$29.43,-0.28,-0.94%,2.10E+11,United States,,40929988,Consumer Services,Telecommunications Equipment
+17,TM,Toyota Motor Corporation Common Stock,$165.98,0.43,0.26%,2.32E+11,Japan,,160049,Capital Goods,Auto Manufacturing
+18,TSM,Taiwan Semiconductor Manufacturing Company Ltd.,$117.36,1.59,1.37%,6.09E+11,Taiwan,1997,5391713,Technology,Semiconductors
+19,UNH,UnitedHealth Group Incorporated Common Stock (DE),$411.92,-0.78,-0.19%,3.89E+11,United States,,2368025,Health Care,Medical Specialities
+20,V,Visa Inc.,$227.30,0.44,0.19%,4.85E+11,United States,,5782053,Miscellaneous,Business Services
+21,WMT,Walmart Inc. Common Stock,$142.03,0.34,0.24%,4.00E+11,United States,,7063303,Consumer Services,Department/Specialty Retail Stores
+22,XOM,Exxon Mobil Corporation Common Stock,$58.37,-0.19,-0.32%,2.47E+11,United States,,19250009,Energy,Oil & Gas Production
