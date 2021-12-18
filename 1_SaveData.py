@@ -21,15 +21,15 @@ server_path = ''
 #     data.to_csv(new_file_path, header=True)
 
 # delete_empty_rows(crypto_file, crypto_file[:-4]+"_filtered.csv")
-
-cryptos = ["Cryptocurrency", server_path+"Yahoo_Cryptos_filtered.csv"] # https://finance.yahoo.com/cryptocurrencies/?&offset=0&count=200
+assetLists = "assetlists/"
+cryptos = ["Cryptocurrency", server_path+assetLists+"Yahoo_Cryptos_filtered.csv"] # https://finance.yahoo.com/cryptocurrencies/?&offset=0&count=200
 # sp100 = ["US Stock", server_path+"S&P100-Info.csv"]
-NASDAQ = ["US Stock", server_path+"NASDAQ_Shortlist.csv"]
-NYSE = ["US Stock", server_path+"NYSE_Shortlist.csv"]
-FTSE100 = ["UK Stock", server_path+"FTSE100-Info.csv"]
-commodities = ["Commodity", server_path+"Commodities.csv"]
-Other_Companies = ["Saudi Stock", server_path+"BigCompanies.csv"]
-currencies = ["Currency", server_path+"Currencies.csv"]
+NASDAQ = ["US Stock", server_path+assetLists+"NASDAQ_Shortlist.csv"]
+NYSE = ["US Stock", server_path+assetLists+"NYSE_Shortlist.csv"]
+FTSE100 = ["UK Stock", server_path+assetLists+"FTSE100-Info.csv"]
+commodities = ["Commodity", server_path+assetLists+"Commodities.csv"]
+Other_Companies = ["Saudi Stock", server_path+assetLists+"BigCompanies.csv"]
+currencies = ["Currency", server_path+assetLists+"Currencies.csv"]
  
 #   currencies, NASDAQ, NYSE, FTSE100, commodities, Other_Companies, cryptos
 assets = [currencies, NASDAQ, NYSE, FTSE100, commodities, Other_Companies, cryptos]
@@ -442,7 +442,7 @@ def getStockData():
     df = table[2]
     df['Symbol'] = df['Symbol'].apply(lambda x: x.replace(".", "-"))
     df = df.rename(columns={"Symbol":"Ticker"})
-    df.to_csv(server_path+'S&P100-Info.csv')
+    df.to_csv(server_path+assetLists+'S&P100-Info.csv')
     
     
     # Get list of FTSE100 Ticker from wikipedia
@@ -461,7 +461,7 @@ def getStockData():
     df = df.rename(columns={"EPIC": "Ticker",
                             "Company": "Name"})
     
-    df.to_csv(server_path+'FTSE100-Info.csv')
+    df.to_csv(server_path+assetLists+'FTSE100-Info.csv')
 
 def read_asset_lists(inputData):    
     
