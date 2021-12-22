@@ -3,8 +3,8 @@ import pandas as pd
 
 app = Flask(__name__)
 
-df = pd.read_pickle('database.pkl') # to run locally
-# df = pd.read_pickle('/var/www/webApp/webApp/database.pkl') # to run on server
+#  df = pd.read_pickle('database.pkl') # to run locally
+df = pd.read_pickle('/var/www/webApp/webApp/database.pkl') # to run on server
 
 
 
