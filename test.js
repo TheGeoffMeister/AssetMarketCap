@@ -20,7 +20,7 @@ let myObject = {
 
 console.log(myObject.name, myObject['age']);
 
-// arrays
+// arrays or lists
 let selectedColors = ['red', 'green', 'blue'];
 console.log(selectedColors[0])
 console.log(selectedColors.length)
