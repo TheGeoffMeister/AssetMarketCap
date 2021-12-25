@@ -5,6 +5,7 @@ let orange = 50;
 let boolVar = true;
 
 
+
 //constants
 const cherry = 10;
 
