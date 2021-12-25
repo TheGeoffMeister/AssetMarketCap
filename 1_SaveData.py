@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 # if runing locally no need to include server path, if running on server however full path required
 server_path = ''
-# server_path = '/var/www/webApp/webApp/' # comment this out if running locally
+server_path = '/var/www/webApp/webApp/' # comment this out if running locally
 
 # # Define which assets to work with
 # crypto_file = "Yahoo_Cryptos.csv"
@@ -173,11 +173,14 @@ class assetClass():
     def change24Hr(self):    
         
         if 'previousClose' in self.data.info:
-            previous_close = self.data.info['previousClose']
+            previous_close = self.data.info['previousClose'] / self.exchangeRate
         else:
-            previous_close = self.price
+            previous_close = self.price / self.exchangeRate
             
-        if previous_close > 0:            
+        if self.ticker == 'USD':
+            return 0.0
+            
+        if previous_close != 0:            
             change24hr = ((self.price - previous_close) / previous_close) *100
         else:
             change24hr = 0.0

@@ -3,7 +3,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-#  df = pd.read_pickle('database.pkl') # to run locally
+# df = pd.read_pickle('database.pkl') # to run locally
 df = pd.read_pickle('/var/www/webApp/webApp/database.pkl') # to run on server
 
 
@@ -45,13 +45,7 @@ format_mapping={'Price': '${:,.2f}',
 
 # Apply formatting
 for i, dataFrame in enumerate(dataFrames):
-    print (dataFrame)
-    for key,value in dataFrame.items():
-        if None in value:
-            print(dataFrame.key)
-    for key, value in format_mapping.items():
-        print(dataFrame[key])
-        
+    for key, value in format_mapping.items():        
         dataFrame[key] = dataFrame[key].apply(value.format)
 
 html_tables = []
