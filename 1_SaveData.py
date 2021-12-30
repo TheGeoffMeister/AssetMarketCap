@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 # if runing locally no need to include server path, if running on server however full path required
 server_path = ''
-server_path = '/var/www/webApp/webApp/' # comment this out if running locally
+# server_path = '/var/www/webApp/webApp/' # comment this out if running locally
 
 # # Define which assets to work with
 # crypto_file = "Yahoo_Cryptos.csv"
